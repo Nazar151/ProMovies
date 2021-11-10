@@ -1,0 +1,27 @@
+.card-info {
+  display: flex;
+  width: 1800px;
+  height: 800px;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, .3);
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+img {
+max-width: 70%;
+}
+
+.movie-description{
+  margin: 20px;
+}
+
+h2 {
+  margin: 10px;
+}
+p{
+  margin: 10px;
+}

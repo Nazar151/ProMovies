@@ -1,0 +1,8 @@
+<div class="movie-card">
+  <a (click)="goToDetails()">
+    <h3>{{movie.title}}</h3>
+    <img [src]="imageUrl + movie.poster_path">
+    <p class="movie-overview">{{movie.overview}}</p>
+  </a>
+</div>
+
